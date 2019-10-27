@@ -1,6 +1,6 @@
 ;basicamente el punto y coma es la manera de hacer comentarios
 ;para un programa en lenguaje ensamblador 
-.model small		;se determinal el tamaño del arhivo
+.model small			;se determinal el tamaño del arhivo, en este caso small hace referencia a ser un programa chico
 .stack				;se establece la pila, stack en ingles
 .data				;aqui se declaran las variables a usar
 	mensaje db "Hola mundo $" ; primero, el nombre de la variable
